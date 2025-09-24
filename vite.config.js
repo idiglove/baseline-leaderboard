@@ -8,6 +8,9 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: true
   },
+  rollupOptions: {
+    input: resolve(__dirname, 'index.html')
+  },
   server: {
     port: 3000,
     host: true
