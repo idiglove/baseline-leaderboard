@@ -9,7 +9,7 @@ export default defineConfig({
     sourcemap: true
   },
   rollupOptions: {
-    input: resolve(__dirname, 'index.html')
+    input: './index.html'
   },
   server: {
     port: 3000,
